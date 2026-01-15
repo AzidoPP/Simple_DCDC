@@ -16,6 +16,7 @@ GitHub 仓库：https://github.com/AzidoPP/Simple_DCDC
 
 - **模块本体**：电源硬件板
 - **示例代码**：用 STM32F103C8T6 做一个最小可用的数控电源验证
+<img width="1920" height="1080" alt="封面169" src="https://github.com/user-attachments/assets/e38e25b9-6a9c-4331-ad47-008aad12c97e" />
 
 ---
 
