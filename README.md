@@ -16,6 +16,7 @@ GitHub 仓库：https://github.com/AzidoPP/Simple_DCDC
 
 - **模块本体**：电源硬件板
 - **示例代码**：用 STM32F103C8T6 做一个最小可用的数控电源验证
+<img width="1920" height="1080" alt="封面169" src="https://github.com/user-attachments/assets/e38e25b9-6a9c-4331-ad47-008aad12c97e" />
 
 ---
 
@@ -43,7 +44,7 @@ GitHub 仓库：https://github.com/AzidoPP/Simple_DCDC
 - 当外部给定变化时，运放驱动 FB 偏移，Buck 会自动调整占空比/能量，直到输出稳定到新的目标值
 
 
-![演示图片1.png](https://image.lceda.cn/oshwhub/pullImage/ac1f20dde1db40938222456690eadaf4.png)
+<img width="1135" height="726" alt="演示图片1" src="https://github.com/user-attachments/assets/5cab2245-d911-4bf4-8c1d-2b99b73e76fd" />
 
 很多 MCU 没有 DAC：可用 **PWM + RC 低通滤波** 得到近似直流的 `Vref_equiv`。
 
@@ -57,7 +58,8 @@ Vout反馈分压值：
 - `Rtop = 30kΩ`
 - `Rbot = 1.8kΩ`
 
-![演示图片2.png](https://image.lceda.cn/oshwhub/pullImage/ac467dada4484c0287bcf955571324cd.png)
+<img width="540" height="327" alt="演示图片2" src="https://github.com/user-attachments/assets/db409009-bf46-43c6-8e0a-e44e1d117860" />
+
 ---
 
 # Part 2：示例（数控DCDC电源）
@@ -89,28 +91,28 @@ Vout反馈分压值：
 
 **测试纹波**
 - 空载纹波 45mV
-![空载纹波.png](https://image.lceda.cn/oshwhub/pullImage/081512612a954bc2b160962c99fb68ef.png)
+<img width="1348" height="711" alt="空载纹波" src="https://github.com/user-attachments/assets/5de8a578-6453-4bab-84c5-e1a83aa89a84" />
 
 - 添加8欧姆负载后，纹波150mV
-![8欧负载纹波.png](https://image.lceda.cn/oshwhub/pullImage/f71d4b028df245f0a2e099e6856fe308.png)
+<img width="1597" height="748" alt="8欧负载纹波" src="https://github.com/user-attachments/assets/8ed0dcf9-b118-4524-bb84-fec3d55008ef" />
 
 **调压精度**
 
 精度 `± 20mV`
 - 设定7V
-![7V.png](https://image.lceda.cn/oshwhub/pullImage/77e45964ae844ae8b5d059c9ddf450c6.png)
+<img width="1768" height="677" alt="7V" src="https://github.com/user-attachments/assets/5eaa46a9-d629-4ef2-a06b-d325d92f6208" />
 
 - 设定6V
-![6V.png](https://image.lceda.cn/oshwhub/pullImage/bf38688b4a744f1890b60376c4b38310.png)
+<img width="1760" height="653" alt="6V" src="https://github.com/user-attachments/assets/cb80c1e2-743b-40eb-bc2e-868379d15f9b" />
 
 - 设定5V
-![5V.png](https://image.lceda.cn/oshwhub/pullImage/7ae6ed00f9644783b537452afa73df10.png)
+<img width="1778" height="595" alt="5V" src="https://github.com/user-attachments/assets/19732022-069d-4414-a461-416a93c69beb" />
 
 - 设定4V
-![4V.png](https://image.lceda.cn/oshwhub/pullImage/a324ac2d12cf41feb6b0b06337ba2ece.png)
+<img width="1700" height="676" alt="4V" src="https://github.com/user-attachments/assets/ccea085c-b3b1-42a1-83b9-7e8e5b605f81" />
 
 - 设定3V
-![3V.png](https://image.lceda.cn/oshwhub/pullImage/4244edbec91f440c9689df24edbabbd3.png)
+<img width="1747" height="642" alt="3V" src="https://github.com/user-attachments/assets/8b65d2cb-83ba-4b14-9466-00f66cb30b80" />
 
 ---
 
