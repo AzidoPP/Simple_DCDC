@@ -9,6 +9,7 @@
 GitHub 仓库：https://github.com/AzidoPP/Simple_DCDC  
 硬件部分工程：https://oshwhub.com/azidopp/SimpleDCDC
 ---
+<img width="1062" height="617" alt="PCBA" src="https://github.com/user-attachments/assets/e31c2d4a-a3cd-4946-aa60-985c5b1a02e7" />
 
 ## 项目概述
 
