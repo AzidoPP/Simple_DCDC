@@ -7,7 +7,7 @@
 
 作者 QQ：1492141580  
 GitHub 仓库：https://github.com/AzidoPP/Simple_DCDC  
-
+硬件部分工程：https://oshwhub.com/azidopp/SimpleDCDC
 ---
 
 ## 项目概述
